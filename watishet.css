@@ -47,6 +47,41 @@ body {
   color: black;
 }
 
+label {
+  margin:0 40px 0 0;
+  font-size: 26px;
+  line-height: 50px;
+  display: none;
+  width: 26px;
+  float: left;
+}
+
+#toggle {
+  display:none;
+}
+
+@media only screen and (max-width: 500px) {
+label{
+  display: block;
+  cursor: pointer;
+}
+.topnav{
+  text-align: center;
+  width: 100%;
+  display: none;
+}
+.topnav a {
+  display: block;
+  margin: 0;
+  width: 100%;
+}
+#toggle:checked + .topnav {
+  display: block;
+ 
+}
+}
+
+
 /* Create three unequal columns that floats next to each other */
 .column {
   margin: auto;

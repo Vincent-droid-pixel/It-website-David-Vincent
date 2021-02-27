@@ -14,6 +14,8 @@ body {
   font-size: 35px;
 }
 
+
+
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
@@ -29,6 +31,7 @@ body {
 .topnav a {
   float: left;
   display: block;
+  line-height: 30px;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -45,6 +48,40 @@ border-width: 0.5px;
 .topnav a:hover {
   background-color: #ddd;
   color: black;
+}
+
+label {
+  margin:0 40px 0 0;
+  font-size: 26px;
+  line-height: 50px;
+  display: none;
+  width: 26px;
+  float: left;
+}
+
+#toggle {
+  display:none;
+}
+
+@media only screen and (max-width: 500px) {
+label{
+  display: block;
+  cursor: pointer;
+}
+.topnav{
+  text-align: center;
+  width: 100%;
+  display: none;
+}
+.topnav a {
+  display: block;
+  margin: 0;
+  width: 100%;
+}
+#toggle:checked + .topnav {
+  display: block;
+ 
+}
 }
 
 /* Create three unequal columns that floats next to each other */
