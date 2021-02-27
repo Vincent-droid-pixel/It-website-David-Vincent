@@ -54,14 +54,23 @@ border-width: 0.5px;
   height: 300px; /* Should be removed. Only for demonstration */
 }
 
-/* Left and right column */
-.column.side {
+/* Left  column */
+.column.left {
+  float: left;
+  width: 25%;
+}
+
+/* right column */
+.column.right {
+  float: right;
   width: 25%;
 }
 
 /* Middle column */
 .column.middle {
-  width: 50%;
+  float: middle;
+  width: 46%;
+  height: 300px;
 }
 
 /* Clear floats after the columns */
