@@ -49,28 +49,17 @@ border-width: 0.5px;
 
 /* Create three unequal columns that floats next to each other */
 .column {
-  float: left;
+  margin: auto;
+  float: middle;
   padding: 10px;
+  font-size: 15px;
   height: 300px; /* Should be removed. Only for demonstration */
 }
 
-/* Left  column */
-.column.left {
-  float: left;
-  width: 25%;
-}
-
-/* right column */
-.column.right {
-  float: right;
-  width: 25%;
-}
 
 /* Middle column */
 .column.middle {
-  float: middle;
-  width: 46%;
-  height: 300px;
+  width: 75%;
 }
 
 /* Clear floats after the columns */
