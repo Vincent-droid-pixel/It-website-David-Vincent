@@ -14,7 +14,7 @@ body {
 
 .homeimage {
   position: relative;
-  top:  80px;
+  top:  0px;
   left: 5px;
 height: 75px;
 width: 75px;
@@ -48,6 +48,15 @@ align-items: center;
 /* Navigation links */
 .nav a {
   float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnavbtn {
+  float: center;
   font-size: 16px;
   color: white;
   text-align: center;
@@ -124,6 +133,7 @@ label {
   display:none;
 }
 
+
 @media only screen and (max-width: 500px) {
 label{
   display: block;
@@ -136,6 +146,10 @@ label{
   display: none;
 }
 
+.subnav {
+  float: left;
+  overflow: hidden;
+}
 
 .navall a {
   display: block;
@@ -143,9 +157,42 @@ label{
   width: 100%;
 }
 
-#toggle:checked + .navall {
+.nav a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnavbtn {
+  float: center;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navall{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  display: none;
+}
+
+.subnav {
+  float: center;
+  overflow: hidden;
+
+}
+
+#toggle:checked + .navall  {
   display: block;
- 
+  
+
 }
 }
 
