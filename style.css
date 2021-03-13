@@ -1,6 +1,6 @@
 body {
    background-image: url("https://wallpaperaccess.com/full/1282794.jpg");
-    background-color: #65c2ce;
+    background-color: #d1faff;
 }
 
 
@@ -20,14 +20,7 @@ height: 75px;
 width: 75px;
 }
 
-@media only screen and (max-width: 500px) {
 
-.homeimage {
- display: flex;
-flex-direction: header;
-align-items: center;
-}
-}
 
 /* Style the header */
 .header {
@@ -133,7 +126,7 @@ label {
   display:none;
 }
 
-
+/* maakt een hamburgermenu van navigatie op smallere schermen */
 @media only screen and (max-width: 500px) {
 label{
   display: block;
@@ -207,7 +200,7 @@ label{
   margin: auto;
   float: middle;
   padding: 10px;
-  
+  max-width: 80%;
   }
 
 
@@ -225,6 +218,7 @@ label{
   clear: both;
 }
 
+/* afbeeldingen opmaak */
 .img1 {
 max-width: 33%;
 height: auto;
@@ -261,6 +255,7 @@ height: auto;
 }
 }
 
+/* positioneren van video */
 .video {
  display: flex;
 flex-direction: column;
@@ -268,7 +263,6 @@ align-items: center;
 }
 
 /* Tabel opmaak */
-
 table, th, td {
   border: 4px solid rgb(161, 235, 188);
   border-collapse: collapse;
@@ -292,15 +286,14 @@ thead {
   align-items: center;
 }
 
-/* maakt tabel breder op smaller scherm */
+/* maakt tabel breder op smallere schermen */
 @media (max-width: 600px) {
 .tabel {
     width: 100%;
   }
 }
 
-/* opmaak linkjes */
-
+/* opmaak van de linkjes */
 a {
   text-decoration: none;
   color: rgb(146, 19, 136);
@@ -313,6 +306,10 @@ a {
   padding: 10px;
   text-align: center;
   border: 5px, solid, black;
+}
+
+.secret {
+  margin-top: 1000%;
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
