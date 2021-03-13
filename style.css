@@ -1,3 +1,9 @@
+body {
+   background-image: url("https://wallpaperaccess.com/full/1282794.jpg");
+    background-color: #65c2ce;
+}
+
+
 {
   box-sizing: border-box;
 }
@@ -25,7 +31,8 @@ align-items: center;
 
 /* Style the header */
 .header {
-  background-color: #f1f1f1;
+  background-color: #a2f4ff;
+  background-image: linear-gradient( rgb(0, 255, 242), rgb(118, 189, 185));
   padding: 15px;
   text-align: center;
   font-size: 35px;
@@ -71,7 +78,7 @@ align-items: center;
 
 /* Add a grey background color to navigation links on hover */
 .nav a:hover, .subnav:hover .subnavbtn {
-  background-color: #ddd;
+  background-color: rgb(35, 46, 189);
 }
 
 
@@ -80,7 +87,7 @@ align-items: center;
   display: none;
   position: absolute;
   left: 0;
-  background-color: #ddd;
+  background-color: rgb(111, 120, 241);
   width: 100%;
   z-index: 1;
 }
@@ -88,13 +95,13 @@ align-items: center;
 /* Style the subnav links */
 .subnav-content a {
   float: left;
-  color: rgb(0, 0, 0);
+  color: rgb(197, 214, 238);
   text-decoration: none;
 }
 
 /* Add a grey background color on hover */
 .subnav-content a:hover {
-  background-color: #eee;
+  background-color: rgb(52, 65, 238);
   color: black;
 }
 
@@ -142,17 +149,26 @@ label{
 }
 }
 
+/* Ordered list opmaak */
+.titel {
+  font-weight: 900;
+}
+
+
 /* Create three unequal columns that floats next to each other */
 .column {
   margin: auto;
   float: middle;
   padding: 10px;
+  
   }
 
 
 /* Middle column */
 .column.middle {
   width: 75%;
+  background-color: rgb(118, 189, 185);
+  background-image: linear-gradient(rgb(118, 189, 185), rgb(18, 228, 217), rgb(85, 146, 143));
 }
 
 /* Clear floats after the columns */
@@ -236,11 +252,20 @@ thead {
   }
 }
 
+/* opmaak linkjes */
+
+a {
+  text-decoration: none;
+  color: rgb(146, 19, 136);
+}
+
 /* Style the footer */
 .footer {
-  background-color: #f1f1f1;
+  background-color: rgb(146, 220, 216);
+  background-image: linear-gradient(rgb(85, 146, 143), rgb(18, 228, 217));
   padding: 10px;
   text-align: center;
+  border: 5px, solid, black;
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
