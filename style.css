@@ -260,6 +260,21 @@ height: auto;
 }
 }
 
+.img4 {
+ float: right;
+ padding: 0 0 0 10px;
+}
+
+.img5 {
+ float: right;
+ padding: 0 0 0 10px;
+}
+
+.img6 {
+ float: right;
+ padding: 0 0 0 10px;
+}
+
 /* positioneren van video */
 .video {
  display: flex;
