@@ -224,6 +224,7 @@ label{
 }
 
 /* afbeeldingen opmaak */
+@media only screen and (min-width: 500px) {
 .img1 {
 max-width: 33%;
 height: auto;
@@ -237,6 +238,7 @@ height: auto;
 .img3 {
 max-width: 22%;
 height: auto;
+}
 }
 
 /* zet afbeeldingen onder elkaar op telefoonscherm */
@@ -258,7 +260,24 @@ float: middle;
 max-width: 100%;
 height: auto;
 }
+
+.img4 {
+ float: center;
+ padding: 0 10px 0 10px;
 }
+
+.img5 {
+ float: center;
+ padding: 0 40px 0 10px;
+}
+
+.img6 {
+ float: center;
+ padding: 0 10px 0 10px;
+}
+}
+
+@media only screen and (min-width: 500px) {
 
 .img4 {
  float: right;
@@ -273,6 +292,7 @@ height: auto;
 .img6 {
  float: right;
  padding: 0 0 0 10px;
+}
 }
 
 /* positioneren van video */
