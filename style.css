@@ -275,6 +275,13 @@ height: auto;
  float: center;
  padding: 0 10px 0 10px;
 }
+
+.img7 {
+ width: 50%;
+ height: auto;
+ padding: 0 0 0 10px;
+}
+
 }
 
 @media only screen and (min-width: 500px) {
@@ -293,6 +300,13 @@ height: auto;
  float: right;
  padding: 0 0 0 10px;
 }
+
+.img7 {
+ width: 30%;
+ height: auto;
+ padding: 0 0 0 10px;
+}
+
 }
 
 /* positioneren van video */
